@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(5, 5, 49);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: rgb(244, 247, 248);
+}
+.wrapper{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 25%;
+    margin-top: 40px;
+}
+.wrapper h1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 39px;
+    position: relative;  
+}
+.wrapper h1::after{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: rgb(100, 197, 235);
+    bottom: -8px;
+    left: 290px;
+}
+.card-item{
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-body img{
+    position: relative;
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    background: rgb(20, 180, 243);
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.card-body .name{
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+.card-body .fild{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(20, 180, 243);
+    margin: 5px 0px 10px;
+}
+.card-body .info{
+    padding-bottom: 4px;
+    color: slategrey;
+}
+.chevron{
+    display: block;
+}
+.chevron button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 8px 7px;
+    color: rgb(20, 180, 243);
+}
+.chevron button i{
+    color: rgb(20, 180, 243);
+}
+button{
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+.surprise{
+    color: rgb(20, 180, 243);
+    border: 1px solid rgb(20, 180, 243);
+    background: rgb(244, 247, 248);
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+
+/* .container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 80px;
+}
+button{
+    color: rgb(5, 5, 49);
+    font-weight: 600;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px;
+    border-radius: 7px;
+    border: rgb(5, 5, 49) 2px solid;
+}
+button:hover{
+    border: rgb(5, 5, 49) 2px solid;
+    background: rgb(5, 5, 49);
+    color:  rgb(244, 247, 248);
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+} */
